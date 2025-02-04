@@ -14,7 +14,7 @@ function Home() {
     <div>
       <div className='home'>
         <h1>Hello, I'm Fatima Tursunali kyzy</h1>
-        <p>I'm a passionate and detail-oriented Junior Frontend Developer with a strong enthusiasm for web development and design.</p>
+        <p>I'm a passionate and detail-oriented Frontend Developer with a strong enthusiasm for web development and design.</p>
      <ScrollLink to="projects-section" smooth={true} duration={500}>Projects</ScrollLink>
       </div>
       <section id='about-section'>
