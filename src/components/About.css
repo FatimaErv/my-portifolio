@@ -36,7 +36,7 @@
     text-align: left;
     color:  rgb(255, 255, 255);
     }
-.me a{
+/* .me a{
     border-radius: 8px;
 
     background: rgb(57, 150, 95);
@@ -50,6 +50,23 @@
     letter-spacing: 0px;
     text-align: center;
     text-decoration: none;
+} */
+
+.me a{
+  border-radius: 8px;
+  background: rgb(57, 150, 95);
+  color: rgb(255, 255, 255);
+  font-family: Poppins;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 27px;
+  letter-spacing: 0px;
+  text-align: center;
+  width: 169px;
+  height: 43px;
+ 
+  text-decoration: none;
+  padding: 10px 10px;
 }
 .tools{
     width: 912px;

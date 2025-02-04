@@ -56,7 +56,8 @@ border-radius: 8px;
 
 input, textarea {
   padding-left: 9px;
- 
+  width: 860px;
+  height: 182px;
   margin-top: 5px;
   margin-bottom: 15px;
   border: none;

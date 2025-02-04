@@ -27,8 +27,8 @@
     margin-top: 24px;
     border-radius: 12px;
     width: 454px;
-    height: 320px;
-    
+    height: 330px;
+    padding-left: 10px;
     border: 1px solid rgb(35, 81, 54);
 }
 .project:hover{
@@ -39,7 +39,7 @@
 .project h5{
     color: rgb(255, 255, 255);
     font-family: Poppins;
-    font-size: 15px;
+    font-size: 17px;
     font-weight: 700;
     line-height: 48px;
     letter-spacing: 0px;
@@ -50,17 +50,15 @@
 .project p{
     color: rgb(255, 255, 255);
     font-family: Poppins;
-    font-size: 9px;
-    font-weight: 700;
-    line-height: 0;
-    letter-spacing: 0px;
+    font-size: 11px;
+    text-decoration: none;
     text-align: left;
     padding-left: 5px;
-
+   
 }
 .project img{
     border-radius: 12px;
-    width: 444px;
+    width: 432px;
 height: 240px;
 object-fit: cover;
 padding-left: 5px;
