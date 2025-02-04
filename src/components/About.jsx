@@ -16,8 +16,8 @@ function About() {
      <div className='me'>
       <h3>About Me</h3>
       <div className='dash'></div>
-      <p>I am Fatima Tursunali kyzy, a Frontend Developer. I am 18 years old and was born in Osh, Kyrgyzstan.
-      I'm a passionate and detail-oriented Junior Frontend Developer with a strong enthusiasm for web development and design. I enjoy building modern, user-friendly, and visually appealing web applications, ensuring a smooth and interactive user experience.
+      <p>I am Fatima Tursunali kyzy, a Frontend Developer. I was born in Osh, Kyrgyzstan.
+      I'm a passionate and detail-oriented Frontend Developer with a strong enthusiasm for web development and design. I enjoy building modern, user-friendly, and visually appealing web applications, ensuring a smooth and interactive user experience.
       <br />
       <br />
       I am always open to new challenges and opportunities where I can grow as a frontend developer and contribute my skills to meaningful projects. If you are looking for someone dedicated, creative, and eager to learn, feel free to reach out! 🚀
@@ -58,7 +58,6 @@ function About() {
           </div>
         </div>
       </div>
-
      </div>
     </div>
   )
