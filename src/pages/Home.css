@@ -1,0 +1,101 @@
+.home{
+  
+    width: 952px;
+    height: 300px;
+    margin-top: 200px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.home h1{
+    font-family: Poppins;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 54px;
+    letter-spacing: 0px;
+    text-align: center;
+    color: white;
+}
+.home p{
+    color: rgba(255, 255, 255, 0.7);
+    font-family: Poppins;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 27px;
+    letter-spacing: 0px;
+    text-align: center;
+}
+.home a{
+    border-radius: 8px;
+    background: rgb(57, 150, 95);
+    color: rgb(255, 255, 255);
+    font-family: Poppins;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 27px;
+    letter-spacing: 0px;
+    text-align: center;
+    width: 169px;
+    height: 43px;
+    margin-left: 370px;
+    padding-top: 5px;
+}
+
+
+/* Мобилдик экрандар үчүн адаптация */
+@media (max-width: 768px) {
+    /* .home кеңдик жана бийиктигин кичирейтүү */
+    .home {
+      width: 90%; /* Проценттик туурасынан мобилдик экранга туура келтирүү */
+      margin-top: 100px; /* Жогорулоочу маржинаны кичирейтүү */
+      height: auto; /* Бийиктикти автоматтык кылуу */
+      margin-left: 0;
+    }
+  
+    /* Башкы жазуунун өлчөмүн кичирейтүү */
+    .home h1 {
+      font-size: 28px; /* Шрифттин өлчөмүн кичирейтүү */
+      line-height: 40px; /* Катар арасын кичирейтүү */
+    }
+  
+    /* Жазуу көлөмүн кичирейтүү */
+    .home p {
+      font-size: 14px; /* Шрифтти кичирейтүү */
+      line-height: 20px; /* Катардын бийиктигин кичирейтүү */
+    }
+  
+  
+    .home a {
+      width: 150px; 
+      height: 40px; 
+      margin-left: 0; 
+      margin-top: 10px;
+      font-size: 16px; 
+    }
+  }
+  
+ 
+  @media (max-width: 480px) {
+    .home {
+      width: 95%; 
+      margin-top: 50px; 
+      margin-left: 10px;
+    }
+  
+    .home h1 {
+      font-size: 22px; /* Шрифттин өлчөмүн дагы кичирейтүү */
+      line-height: 30px;
+    }
+  
+    .home p {
+      font-size: 12px; /* Параграфтын шрифтин кичирейтүү */
+      line-height: 18px; /* Катардын бийиктигин кичирейтүү */
+    }
+  
+    .home a {
+      width: 120px; /* Кнопканын туурасын дагы кичирейтүү */
+      height: 35px; /* Кнопканын бийиктигин дагы кичирейтүү */
+      font-size: 14px; /* Кнопканын шрифтин кичирейтүү */
+      margin-left: 120px;
+    }
+  }

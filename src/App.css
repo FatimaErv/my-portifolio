@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+body{
+  background-color: black;
+}
+.wrapper{
+  width: 1440px;
+  background-color: black;
+}
+.container{
+  width: 1290px;
+  box-sizing: border-box;
+}
+*{
+  padding: 0;
+  margin: 0;
+}
+.app-container {
+  display: flex;
+}
+.content {
+  margin-left: 320px;
+  padding: 20px;
+  width: 100%;
+}
+@media (max-width: 1200px) {
+  .wrapper {
+    padding: 20px; 
+    width: 100%;
+  }
+  .container {
+    width: 100%;
+    padding: 0 15px;
+  }
+  .app-container {
+   display: flex;
+  }
+  .content {
+    margin-left: 100px;
+    width: 100%;
+    padding: 15px;
+  }
+}
+@media (max-width: 768px) {
+  .wrapper {
+    width: 100%;
+    background-color: black;
+  }
+  .container {
+    width: 100%;
+    padding: 0 10px;
+  }
+  .app-container {
+    display: flex;
+  }
+  .content {
+    margin-left: 30px;
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+  }
+}
+@media (max-width: 480px) {
+  .wrapper {
+    padding: 10px;
+   height: auto;
+  }
+  .container {
+    width: 100%;
+    padding: 0 5px;
+  }
+  .app-container {
+   flex-direction: column;
+  }
+  .content {
+    width: 100%;
+    margin-left: 0;
+    box-sizing: border-box;
+  }
+}
+
+
+
+

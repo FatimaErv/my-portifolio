@@ -1,0 +1,262 @@
+.contacts{
+    width: 952px;
+
+}
+.contact h4{
+    color: rgb(255, 255, 255);
+    font-family: Poppins;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 48px;
+    letter-spacing: 0px;
+    text-align: left;
+}
+.dash4{
+    border-radius: 10px;
+    background: rgb(57, 150, 95);
+    width: 112px;
+    height: 8px;
+}
+.contact-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+   
+    padding: 24px 0;
+    border-radius: 10px;
+  }
+  
+  .contact-card {
+    background: #1a1a1a;
+    padding: 20px 30px;
+    width: 250px;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  .contact-card h3{
+    color: rgb(255, 255, 255);
+font-family: Poppins;
+font-size: 20px;
+font-weight: 600;
+line-height: 30px;
+letter-spacing: 0px;
+text-align: center;
+  }
+  
+  .contact-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 12px rgba(255, 255, 255, 0.2);
+  }
+  
+  .icon-contact {
+    font-size: 40px;
+    margin-bottom: 10px;
+  }
+  
+  .gmail {
+    color: #ea4335;
+  }
+  
+  .telegram {
+    color: #0088cc;
+  }
+  
+  .phone {
+    color: #25d366;
+  }
+
+  .instagram {
+    color: #e4405f;
+  }
+  
+  .contact-card h3 {
+    color: #fff;
+    margin-bottom: 8px;
+  }
+  
+  .contact-card a {
+   
+    text-decoration: none;
+   
+
+    color: rgba(255, 255, 255, 0.7);
+font-family: Poppins;
+font-size: 16px;
+font-weight: 400;
+line-height: 24px;
+letter-spacing: 0px;
+text-align: center;
+  }
+  
+  .contact-card a:hover {
+    color: #fff;
+  }
+
+  @media (max-width: 1200px) {
+    .contacts {
+      width: 100%;
+    }
+  
+    .contact-container {
+      flex-wrap: wrap; /* Элементтерди татаалдайт */
+      gap: 20px;
+      justify-content: center; /* Контейнерде иштеген кеңдикти жакшыртат */
+    }
+  
+    .contact-card {
+      width: 45%; /* 2 картаны бир катарга жайгаштыруу */
+      margin-top: 20px;
+    }
+  
+    .contact-card h3 {
+      font-size: 20px;
+    }
+  
+    .contact-card a {
+      font-size: 12px;
+    }
+  }
+  
+  /* Мобилдик түзмөктөр (макс. 768px) */
+  @media (max-width: 768px) {
+    .contacts {
+      width: 100%;
+      margin-top: 50px;
+    }
+  
+    .contact-container {
+      display: grid;
+      grid-template-columns: 1fr;
+     
+      gap: 15px;
+    }
+  
+    .contact-card {
+      width: 230px;
+      height: 70px;
+      margin-top: 15px;
+      padding: 15px;
+    }
+  
+    .contact-card h3 {
+      font-size: 18px;
+    }
+  
+    .contact-card a {
+      font-size: 12px;
+    }
+  
+    .icon {
+      font-size: 30px; /* Иконкалардын өлчөмүн кичирейтип мобилдик үчүн ыңгайлаштыруу */
+    }
+  }
+  
+  /* Мобилдик түзмөктөр үчүн эң кичине экрандар (макс. 480px) */
+  @media (max-width: 480px) {
+    .contacts{
+      width: 90%;
+      margin-left: 10px;
+  
+  }
+  .contact h4{
+      color: rgb(255, 255, 255);
+      font-family: Poppins;
+      font-size: 20px;
+      font-weight: 700;
+      line-height: 48px;
+      letter-spacing: 0px;
+      text-align: left;
+  }
+  .dash4{
+      border-radius: 10px;
+      background: rgb(57, 150, 95);
+      width: 112px;
+      height: 8px;
+  }
+  .contact-container {
+      display: grid;
+      justify-content: center;
+   
+      grid-template-columns: repeat(2,1fr);
+      gap: 10px;
+     
+     
+      border-radius: 10px;
+    }
+    
+    .contact-card {
+      position: relative;
+      background: #1a1a1a;
+ 
+     
+      text-align: center;
+      border-radius: 10px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+      width: 120px;
+      height: 60px;
+    }
+    
+    .contact-card:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 6px 12px rgba(255, 255, 255, 0.2);
+    }
+    .contact-card h3{
+      position: absolute;
+      left: 36px;
+      top: 35px;
+    }
+    
+    .icon-contact {
+      position: absolute;
+      left: 50px;
+      top: 8px;
+      font-size: 30px;
+    }
+    
+    .gmail {
+    
+      color: #ea4335;
+    }
+    
+    .telegram {
+      color: #0088cc;
+    }
+    
+    .phone {
+      color: #25d366;
+    }
+  
+    .instagram {
+      color: #e4405f;
+    }
+    
+    .contact-card h3 {
+      color: #fff;
+      font-size: 13px;
+     
+    }
+    
+    .contact-card a {
+      color: #ddd;
+      text-decoration: none;
+      font-size: 10px;
+      position: absolute;
+      bottom: 10px;
+      left: 24px;
+    }
+    .small a {
+      color: #ddd;
+      text-decoration: none;
+      font-size: 10px;
+      position: absolute;
+      bottom: 10px;
+      left: 45px;
+    }
+    
+    .contact-card a:hover {
+      color: #fff;
+    }
+  }

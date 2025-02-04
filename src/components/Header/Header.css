@@ -1,0 +1,94 @@
+.header{
+    position: relative;
+    top: 0;
+    height: 48px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #ccc;
+    background: rgba(255, 255, 255, 0.05);
+    background-color: rgb(31, 29, 29);
+}
+.logo {
+    display: flex;
+   
+}
+.logo h2{
+    font-family: Poppins;
+    font-size: 22px;
+    font-weight: 500;
+    line-height: 28px;
+    letter-spacing: -1px;
+    text-align: center;
+    color: white;
+}
+.logo p{
+    font-family: Poppins;
+    font-size: 22px;
+    font-weight: 500;
+    line-height: 28px;
+    letter-spacing: -1px;
+    text-align: center;
+    color: green;
+}
+.menu{
+    display: flex;
+    justify-content: flex-end;
+    gap: 90px;
+    align-items: center;
+    margin-right: 50px;
+}
+.menu li {
+    list-style: none;
+}
+
+.menu li a{
+ 
+    color: rgb(255, 255, 255);
+font-family: Open Sans;
+font-size: 16px;
+font-weight: 400;
+line-height: 0px;
+letter-spacing: 0px;
+text-align: center;
+    text-decoration: none;
+
+}
+@media (max-width: 768px) {
+    .header {
+        height: 60px; /* Жогору маржинаны кичирейтүү */
+        padding: 0 15px; /* Жашыруун маржина */
+    }
+
+    .logo h2, .logo p {
+        font-size: 18px; /* Шрифттин өлчөмүн кичирейтүү */
+    }
+
+    .menu {
+     
+        gap: 10px; /* Ички аралыкты өзгөртүү */
+        margin-right: 0; /* Колдонулган маржина жок */
+        justify-content: center; /* Менюдин борбордоштурулган орнотуу */
+    }
+
+    .menu li a {
+        font-size: 14px; /* Шрифттин өлчөмүн кичирейтүү */
+        padding: 10px 0; /* Босун сактоо үчүн кнопкаларга ички аралык кошуу */
+    }
+}
+
+/* Эң кичине мобилдик түзмөктөр үчүн дагы өзгөртүүлөр */
+@media (max-width: 480px) {
+    .header {
+        height: 50px; /* Башкы бөлүктүн бийиктигин кичирейтүү */
+    }
+
+    .logo h2, .logo p {
+        font-size: 16px; /* Шрифттин өлчөмүн кичирейтүү */
+    }
+
+    .menu li a {
+        font-size: 12px; /* Шрифттин өлчөмүн дагы кичирейтүү */
+        padding: 8px 0; /* Кнопканын үстүндө жана астында бир аз аралык калтыруу */
+    }
+}
