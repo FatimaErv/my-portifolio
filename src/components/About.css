@@ -72,16 +72,19 @@
     width: 912px;
     height: 350px;
     margin-top: 64px;
+    
 }
 .tools-img{
     margin-top: 24px;
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     gap: 20px;
+    width: 213px;
+    height: 110px;
 }
 .tools-icon{
     width: 213px;
-height: 124px;
+height: 120px;
 box-sizing: border-box;
 border: 1px solid rgba(255, 255, 255, 0.25);
 border-radius: 12px;
@@ -98,32 +101,29 @@ padding: 30px 75px;
 
 
 }
-.tools-icons:hover {
+/* .tools-icons:hover {
     border-radius: 12px;
-    width: 213px;
-    height: 124px;
+
     box-shadow: 0 6px 69px rgba(11, 225, 75, 0.2);
     border: 1px solid rgb(57, 150, 95);
 }
 .tools-icon:hover {
     border-radius: 12px;
-    
- 
     box-shadow: 0 6px 69px rgba(11, 225, 75, 0.2);
     border: 1px solid rgb(57, 150, 95);
-}
+} */
 
 @media (max-width: 1200px) {
     .about {
       width: 100%;
       margin-top: 50px;
     }
-  
+
     .me {
       margin-left: 20px;
       margin-top: 40px;
     }
-  
+
     .me h3 {
       font-size: 28px;
     }
@@ -147,7 +147,7 @@ padding: 30px 75px;
       grid-template-columns: repeat(4, 1fr); /* 2 колонка мобилдик түзмөктөр үчүн */
       gap: 10px;
     }
-  
+
     .tools-icon {
       width: 100%;
       height: auto;
@@ -161,8 +161,8 @@ padding: 30px 75px;
       padding: 20px;
     }
   }
-  
-  /* Мобилдик түзмөктөр (макс. 768px) */
+
+
   @media (max-width: 768px) {
     .about {
       width: 100%;
@@ -185,7 +185,7 @@ padding: 30px 75px;
     }
   
     .me a {
-        
+
             width: 130px;
             height: 50px;
             font-size: 12px;
@@ -200,7 +200,6 @@ padding: 30px 75px;
   .tools-img {
     grid-template-columns: repeat(4, 1fr); /* Бир колонка */
     flex-direction: row;
-    
     justify-content: space-between;
     align-items: center;
   }
@@ -218,7 +217,6 @@ padding: 15px 35px;
   }
   }
   
-  /* Мобилдик түзмөктөр үчүн эң кичине экрандар (макс. 480px) */
   @media (max-width: 480px) {
     .about {
       width: 100%;
@@ -259,12 +257,21 @@ padding: 15px 35px;
         width: 100px;
         height: 62px;
     }
+
+    /* .tools-icons:hover {
+      border-radius: 12px;
+     
+      box-shadow: 0 6px 69px rgba(11, 225, 75, 0.2);
+      border: 1px solid rgb(57, 150, 95);
+  } */
+
+   
     .tools-icon img {
 
       width: 27px;
       height: 27px;
       display: flex;
 
-  padding: 15px 35px;
+     padding: 15px 35px;
     }
   }

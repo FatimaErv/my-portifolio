@@ -28,8 +28,9 @@
     border-radius: 12px;
     width: 454px;
     height: 330px;
-    padding-left: 10px;
+    padding-left: 5px;
     border: 1px solid rgb(35, 81, 54);
+    text-decoration: none;
 }
 .project:hover{
    
@@ -45,6 +46,7 @@
     letter-spacing: 0px;
     text-align: left;
     padding-left: 5px;
+
 
 }
 .project p{
@@ -146,6 +148,7 @@ padding-top: 5px;
     .project {
       width: 150px;
       height: 150px;
+      padding-right: 5px;
     }
   
     .project h5 {
@@ -161,6 +164,7 @@ padding-top: 5px;
     .project img {
       width: 140px;
       height: auto;
+     
     }
   }
 

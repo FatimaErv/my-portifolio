@@ -33,8 +33,9 @@ function About() {
         <h3>My Skills</h3>
         <div className='dash'></div>
         <div className='tools-img'>
-          <div className='tools-icons'>
-            <img src={html} alt="HTML" />
+
+        <div className='tools-icons'>
+            <img src={html} alt="html" />
           </div>
           <div className='tools-icons'>
             <img src={css} alt="CSS" />

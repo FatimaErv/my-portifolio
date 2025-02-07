@@ -1,6 +1,7 @@
 import React from 'react'
 import './Contacts.css'
 import { FaEnvelope, FaTelegramPlane, FaPhone, FaInstagram} from "react-icons/fa";
+import { Link } from 'react-router-dom';
 
 function Contacts() {
   return (
@@ -9,12 +10,15 @@ function Contacts() {
       <h4>My Contacts</h4>
       <div className='dash4'></div>
       <div className="contact-container">
+  
 
-
+  
+ 
       <div className="contact-card">
+        
         <FaEnvelope className="icon-contact gmail" />
         <h3>E-pochta</h3>
-        <a href="mailto:fatergesh@gmail.com">fatergesh@gmail.com</a>
+        <Link to="mailto:fatergesh@gmail.com">fatergesh@gmail.com</Link>
       </div>
       
       <div className="contact-card">
@@ -22,9 +26,9 @@ function Contacts() {
         <h3>Telegram</h3>
 
         <div className='small'>
-        <a href="https://t.me/fat1lm" target="_blank" rel="noopener noreferrer">
+        <Link to="https://t.me/fat1lm" target="_blank" rel="noopener noreferrer">
           t.me/fat1lm
-        </a>
+        </Link>
         </div>
       
       </div>
@@ -32,16 +36,16 @@ function Contacts() {
       <div className="contact-card">
         <FaPhone className="icon-contact phone" />
         <h3>Phone</h3>
-        <a href="tel:+996999027278">+996 999 02-72-78</a>
+        <Link to="tel:+996999027278">+996 999 02-72-78</Link>
       </div>
 
       <div className="contact-card">
         <FaInstagram className="icon-contact instagram" />
         <h3>Instagram</h3>
         <div className='small'>
-        <a href="https://instagram.com/fat1lm_" target="_blank" rel="noopener noreferrer">
+        <Link to="https://instagram.com/fat1lm_" target="_blank" rel="noopener noreferrer">
               @fat1lm_
-        </a>
+        </Link>
         </div>
         
       </div>
